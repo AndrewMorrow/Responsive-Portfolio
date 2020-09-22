@@ -7,3 +7,9 @@ footer {
     border-top: solid teal;
     text-align: center;
 }
+
+.bodyBackground {
+    background-image: url(assets/images/ElfDefense2D.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
