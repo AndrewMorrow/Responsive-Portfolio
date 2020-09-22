@@ -1,17 +1,15 @@
-footer{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-color: grey; 
-  border-top: solid teal;
-  text-align: center;
-
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    border-top: solid teal;
+    text-align: center;
 }
 
-.bodyBackground{
-  background-image: url(assets/images/ElfDefense2D.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  
+.bodyBackground {
+    background-image: url(assets/images/ElfDefense2D.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
