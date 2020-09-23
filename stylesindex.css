@@ -6,10 +6,11 @@ footer {
     background-color: grey;
     border-top: solid teal;
     text-align: center;
+    
 }
 
 .bodyBackground {
-    background-image: url(assets/images/wallpaperflare.com_wallpaper.jpg);
+    background: url(assets/images/wallpaperflare.com_wallpaper.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    height: 100%;
 }
