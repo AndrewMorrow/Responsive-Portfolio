@@ -55,3 +55,16 @@ footer a:hover {
     color: #f79459;
 }
 /* ------ End Footer Styling ------ */
+
+.border-between > [class*="col"]:before {
+    background: black;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 1px;
+    top: 0;
+}
+.border-between > [class*="col"]:first-child:before {
+    display: none;
+}
