@@ -57,7 +57,7 @@ footer a:hover {
 /* ------ End Footer Styling ------ */
 
 .border-between > [class*="col"]:before {
-    background: black;
+    background: navy;
     bottom: 0;
     content: " ";
     left: 0;
