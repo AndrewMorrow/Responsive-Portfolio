@@ -1,16 +1,21 @@
+
+
+    /* Global Styles */
+.bodyBackground {
+    background: url(assets/images/wallpaperflare.com_wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+    /* Main content styles */
+    
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: grey;
+    background-color: #595242;
     border-top: solid teal;
     text-align: center;
+    color: #F1F6F5;
     
-}
-
-.bodyBackground {
-    background: url(assets/images/wallpaperflare.com_wallpaper.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
