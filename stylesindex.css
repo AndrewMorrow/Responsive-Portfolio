@@ -1,5 +1,5 @@
 /* index.html styling */
-/* Color Pallete 
+/* ---- Color Pallete ----
     #494742 : medium brown;
     #b8b8b8 :  light grey
     #1E1D1C : dark grey
@@ -7,15 +7,18 @@
     #F79459 : tangerine
     #86c351 : Light green
 */
-/* Global Styles */
+
+/* ------ Global Styles ------ */
+
 .bodyBackground {
     background: url(assets/images/aboutMeBackground.jpg) no-repeat center center
         fixed;
     background-size: cover;
     height: 100%;
 }
-/* end global styles */
-/* navbar styling */
+/* ------ End Global Styles ------ */
+
+/* ------ Navbar Styles ------ */
 .navbar-custom {
     background-color: #494742;
 }
@@ -38,9 +41,11 @@
 .active {
     color: #86c351 !important;
 }
-/* end navbar styles */
-/* Main content styles */
-/* jumbotron styling */
+/* ------ End Navbar Styles ------ */
+
+/* ------ Main content styles ------ */
+
+/* ------ Jumbotron Styles ------ */
 .jumbotron {
     background-color: #b8b8b8;
     color: #1e1d1c;
@@ -48,6 +53,9 @@
 .jumbotron h1 {
     text-align: center;
 }
+/* ------ End Jumbotron Styles ------ */
+
+/* ------ Footer Styling ------ */
 .footer {
     position: fixed;
     bottom: 0;
@@ -56,7 +64,6 @@
     background-color: #494742;
     border-top: solid #86c351;
     color: #f1f6f5;
-    /* text-align: center; */
 }
 
 footer a {
@@ -65,3 +72,4 @@ footer a {
 footer a:hover {
     color: #f79459;
 }
+/* ------ End Footer Styling ------ */

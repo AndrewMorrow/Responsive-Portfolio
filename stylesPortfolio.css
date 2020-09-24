@@ -1,6 +1,6 @@
 /* styles for portfolio.html */
 
-/* global styles */
+/* ------ Global Styles ------ */
 .bodyBackground {
     background-image: url(assets/images/portfolioBackground.jpg);
     background-size: cover;
@@ -31,7 +31,9 @@
     color: #86c351 !important;
 }
 /* end navbar styles */
-/* Main content styles */
+
+/* ------ Main content styles ------ */
+
 /* jumbotron styling */
 .jumbotron {
     background-color: #b8b8b8;
