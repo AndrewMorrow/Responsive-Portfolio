@@ -1,9 +1,10 @@
 /* index.html styling */
 /* Color Pallete 
     #494742 : medium brown;
-    #C3CED6 : very light grey
+    #b8b8b8 :  light grey
     #1E1D1C : dark grey
     #F1F6F5 : offwhite
+    #F79459 : tangerine
 
 */
     /* Global Styles */
@@ -19,21 +20,25 @@
 }
 /* targets hamburger icon */
 .navbar-custom .navbar-toggler{
-    background-color: #494742;
     border-color: #F1F6F5;
     color: #F1F6F5;
 }
+/* changes the text color for the nav bar */
 .navbar-custom .navbar-brand, .navbar-custom .nav-link {
     color: #F1F6F5;
 }
 
 .nav-link:hover{
-    color: blue;
+    /* color: #EBC8A0; */
+    color: #F79459;
+}
+.active{
+    color: #86c351 !important;
 }
     /* Main content styles */
 /* jumbotron styling */
 .jumbotron{
-    background-color: #B7A79C;
+    background-color: #b8b8b8;
     color: #1e1d1c;
 }
 .jumbotron h1{
@@ -45,11 +50,8 @@ footer {
     width: 100%;
     height: 50px;
     background-color: #494742;
-    border-top: solid #7DAF52;
+    border-top: solid #86c351;
     text-align: center;
     color: #F1F6F5;
     
 }
-
-/* #828282 */
-/* b8b8b8 */
