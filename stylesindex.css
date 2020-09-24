@@ -5,7 +5,7 @@
     #1E1D1C : dark grey
     #F1F6F5 : offwhite
     #F79459 : tangerine
-
+    #86c351 : Light green
 */
     /* Global Styles */
 .bodyBackground {
@@ -13,7 +13,7 @@
     background-size: cover;
     height: 100%;
 }
-
+/* end global styles */
     /* navbar styling */
 .navbar-custom{
     background-color: #494742;
@@ -32,9 +32,11 @@
     /* color: #EBC8A0; */
     color: #F79459;
 }
+/* this colors the text of the active page important overrides bootstrap */
 .active{
     color: #86c351 !important;
 }
+/* end navbar styles */
     /* Main content styles */
 /* jumbotron styling */
 .jumbotron{

@@ -1,15 +1,52 @@
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: grey;
-    border-top: solid teal;
-    text-align: center;
-}
+
 
 .bodyBackground {
     background-image: url(assets/images/wallpaperflare.com_wallpaper.jpg) ;
     background-size: cover;
     height: 100%;
+}
+
+/* navbar styling */
+.navbar-custom {
+    background-color: #494742;
+}
+/* targets hamburger icon */
+.navbar-custom .navbar-toggler {
+    border-color: #f1f6f5;
+    color: #f1f6f5;
+}
+/* changes the text color for the nav bar */
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #f1f6f5;
+}
+
+.nav-link:hover {
+    /* color: #EBC8A0; */
+    color: #f79459;
+}
+/* this colors the text of the active page important overrides bootstrap */
+.active {
+    color: #86c351 !important;
+}
+/* end navbar styles */
+/* Main content styles */
+/* jumbotron styling */
+.jumbotron {
+    background-color: #b8b8b8;
+    color: #1e1d1c;
+}
+.jumbotron h1 {
+    text-align: center;
+}
+/* end jumbotron styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #494742;
+    border-top: solid #86c351;
+    text-align: center;
+    color: #f1f6f5;
 }
