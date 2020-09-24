@@ -57,6 +57,9 @@
     /* text-align: center; */
 }
 
-footer i{
-    
+footer a{
+    color: #F1F6F5;
+}
+footer a:hover{
+    color: #F79459;
 }
