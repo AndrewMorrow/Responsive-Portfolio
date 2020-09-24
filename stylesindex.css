@@ -1,5 +1,11 @@
+/* index.html styling */
+/* Color Pallete 
+    #494742 : medium brown;
+    #C3CED6 : very light grey
+    #1E1D1C : dark grey
+    #F1F6F5 : offwhite
 
-
+*/
     /* Global Styles */
 .bodyBackground {
     background: url(assets/images/wallpaperflare.com_wallpaper.jpg) no-repeat center center fixed;
@@ -20,13 +26,18 @@
 .navbar-custom .navbar-brand, .navbar-custom .nav-link {
     color: #F1F6F5;
 }
-.navbar-custom .nav-item:hover .nav-link{
-    color: pink;
+
+.nav-link:hover{
+    color: blue;
 }
     /* Main content styles */
-
+/* jumbotron styling */
 .jumbotron{
-
+    background-color: #b8b8b8;
+    color: #1e1d1c;
+}
+.jumbotron h1{
+    text-align: center;
 }
 footer {
     position: fixed;
@@ -34,8 +45,10 @@ footer {
     width: 100%;
     height: 50px;
     background-color: #494742;
-    border-top: solid teal;
+    border-top: solid #7DAF52;
     text-align: center;
     color: #F1F6F5;
     
 }
+
+/* #828282 */
