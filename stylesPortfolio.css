@@ -1,5 +1,12 @@
 /* styles for portfolio.html */
-
+/* ---- Color Pallete ----
+    #494742 : medium brown;
+    #b8b8b8 :  light grey
+    #1E1D1C : dark grey
+    #F1F6F5 : offwhite
+    #F79459 : tangerine
+    #86c351 : Light green
+*/
 /* ------ Global Styles ------ */
 .bodyBackground {
     background-image: url(assets/images/portfolioBackground.jpg);
