@@ -7,10 +7,24 @@
     #F79459 : tangerine
     #86c351 : Light green
 */
+/* ----- Golbal Styles ----- */
 .bodyBackground {
     background-image: url(assets/images/contactBackground.jpg);
     background-size: cover;
     height: 100%;
+}
+/* setting the height so we can space away from the footer */
+body {
+    height: 100%;
+}
+/* this wraps all the main content and subtracts the footer height then sets padding off of the footer */
+.wrap-content {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -50px;
+    /* Pad bottom by footer height */
+    padding: 0 0 50px;
 }
 
 /* navbar styling */
