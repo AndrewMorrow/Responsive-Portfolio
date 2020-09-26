@@ -7,6 +7,6 @@ https://andrewmorrow.github.io/Responsive-Portfolio/
 
 <img src= "assets\images\aboutMeScreenshot.png">
 
-<img src= "">
+<img src= "assets\images\portfolioScreenshot.png">
 
-<img src= "">
+<img src= "assets\images\contactScreenshot.png">
