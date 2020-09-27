@@ -67,7 +67,9 @@ body {
 .jumbotron a:hover {
     color: #f79459;
 }
-
+.buttonHover button:hover {
+    color: #f79459;
+}
 /* ------ End Jumbotron Styles ------ */
 
 /* ------ Footer Styling ------ */
