@@ -64,19 +64,6 @@ body {
 .jumbotron a:hover {
     color: #f79459;
 }
-/* this adds a border between the two columns on the contact page */
-.border-between > [class*="col"]:before {
-    background: navy;
-    bottom: 0;
-    content: " ";
-    left: 0;
-    position: absolute;
-    width: 1px;
-    top: 0;
-}
-.border-between > [class*="col"]:first-child:before {
-    display: none;
-}
 
 /* end jumbotron styling */
 .footer {
@@ -96,3 +83,19 @@ footer a:hover {
     color: #f79459;
 }
 /* ------ End Footer Styling ------ */
+
+@media only screen and (min-width: 768px) {
+    /* this adds a border between the two columns on the contact page */
+    .border-between > [class*="col"]:before {
+        background: navy;
+        bottom: 0;
+        content: " ";
+        left: 0;
+        position: absolute;
+        width: 1px;
+        top: 0;
+    }
+    .border-between > [class*="col"]:first-child:before {
+        display: none;
+    }
+}
