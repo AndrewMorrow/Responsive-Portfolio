@@ -26,8 +26,9 @@ body {
     /* Pad bottom by footer height */
     padding: 0 0 50px;
 }
+/* ------ End Global Styles ------ */
 
-/* navbar styling */
+/* ------ Navbar Styles ------ */
 .navbar-custom {
     background-color: #494742;
 }
@@ -41,7 +42,7 @@ body {
 .navbar-custom .nav-link {
     color: #f1f6f5;
 }
-
+/* sets hover color on nav */
 .nav-link:hover {
     /* color: #EBC8A0; */
     color: #f79459;
@@ -50,9 +51,11 @@ body {
 .active {
     color: #86c351 !important;
 }
-/* end navbar styles */
-/* Main content styles */
-/* jumbotron styling */
+/* ------ End Navbar Styles ------ */
+
+/* ------ Main content styles ------ */
+
+/* ------ Jumbotron Styles ------ */
 .jumbotron {
     background-color: #b8b8b8;
     color: #1e1d1c;
@@ -65,7 +68,9 @@ body {
     color: #f79459;
 }
 
-/* end jumbotron styling */
+/* ------ End Jumbotron Styles ------ */
+
+/* ------ Footer Styling ------ */
 .footer {
     position: fixed;
     bottom: 0;
@@ -79,11 +84,14 @@ body {
 footer a {
     color: #f1f6f5;
 }
+/* sets hover color on footer icons */
 footer a:hover {
     color: #f79459;
 }
 /* ------ End Footer Styling ------ */
 
+/* ------ Media Query ------ */
+/* gets rid of the divider on the contact page for smaller screens */
 @media only screen and (min-width: 768px) {
     /* this adds a border between the two columns on the contact page */
     .border-between > [class*="col"]:before {

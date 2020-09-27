@@ -26,8 +26,8 @@ body {
     /* Pad bottom by footer height */
     padding: 0 0 50px;
 }
-/* end global styles */
-/* navbar styling */
+/* ------ End Global Styles ------ */
+/* ------ Navbar Styles ------ */
 .navbar-custom {
     background-color: #494742;
 }
@@ -50,11 +50,11 @@ body {
 .active {
     color: #86c351 !important;
 }
-/* end navbar styles */
+/* ------ End Navbar Styles ------ */
 
 /* ------ Main content styles ------ */
 
-/* jumbotron styling */
+/* ------ Jumbotron Styles ------ */
 .jumbotron {
     background-color: #b8b8b8;
     color: #1e1d1c;
@@ -63,7 +63,9 @@ body {
     text-align: center;
 }
 
-/* end jumbotron styling */
+/* ------ End Jumbotron Styles ------ */
+
+/* ------ Footer Styling ------ */
 .footer {
     position: fixed;
     bottom: 0;
